@@ -24,7 +24,7 @@ Porém, comprometimento, entusiasmo e dedicação também são características 
 
 Você está familiarizado com o Adobe XD? Não? Então é melhor colocar uns tutoriais para rodar.
 
-Esse desafio consiste na **CODIFICAÇÃO** de layout **JÁ EXISTENTE**, de uma tela de nosso produto utilizando a tecnologia VueJS. Estamos disponibilizando o link do Adobe XD, ele será sua referência para a execução deste desafio. Você pode acessá-lo ![clicando aqui](https://xd.adobe.com/view/d0b5ca59-0d2c-4739-6e77-279d51e494f4-a684/).
+Esse desafio consiste na **CODIFICAÇÃO** de layout **JÁ EXISTENTE**, de uma tela de nosso produto utilizando a tecnologia VueJS. Estamos disponibilizando o link do Adobe XD, ele será sua referência para a execução deste desafio. Você pode acessá-lo <a href="https://xd.adobe.com/view/d0b5ca59-0d2c-4739-6e77-279d51e494f4-a684/">clicando aqui</a>.
 
 
 ### Finalmente
