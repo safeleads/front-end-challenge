@@ -35,7 +35,7 @@ Para este desafio é permitido o uso de plugins seus ou de terceiros. O uso do *
 
 Itens que serão avaliados no Front-End Challenge: 
 
-- **Atendimento às obrigatoriedades:** uso das variáveis e do SASS;
+- **Atendimento às obrigatoriedades:** uso das variáveis e do SCSS;
 
 - **Organização:** organize o código e seus componentes como se cada elemento fizesse parte de módulos/plugins, de forma que possam ser reutilizados em outros projetos sem muita modificação. O uso de mixin’s no SASS é muito indicado;
 
@@ -43,7 +43,7 @@ Itens que serão avaliados no Front-End Challenge:
 
 - **Desenvoltura:** as decisões tomadas para a execução do projeto;
 
-- **Técnica:** o grau de conhecimento em HTML, SASS, JS e o uso correto do Git;
+- **Técnica:** o grau de conhecimento em HTML, SCSS, JS e o uso correto do Git;
 
 - **Bom gosto:** o uso de técnicas para deixar a navegação fluida e agradável.
 
