@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.186" height="23.165" viewBox="0 0 19.186 23.165">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6a1476;
+        stroke: #6a1476;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g id="file" transform="translate(-44.694 0.25)">
+    <g id="Grupo_1780" data-name="Grupo 1780" transform="translate(44.944)">
+      <g id="Grupo_1779" data-name="Grupo 1779">
+        <path id="Caminho_1994" data-name="Caminho 1994" class="cls-1" d="M63.494,5.616,58.014.136A.463.463,0,0,0,57.687,0H47.192a2.251,2.251,0,0,0-2.248,2.248V20.417a2.251,2.251,0,0,0,2.248,2.248h14.19a2.251,2.251,0,0,0,2.248-2.248V5.943A.463.463,0,0,0,63.494,5.616ZM58.149,1.579l3.9,3.9H59.472a1.323,1.323,0,0,1-1.323-1.323ZM62.7,20.417a1.324,1.324,0,0,1-1.323,1.323H47.192a1.324,1.324,0,0,1-1.323-1.323V2.248A1.324,1.324,0,0,1,47.192.925H57.224V4.157a2.248,2.248,0,0,0,2.248,2.248H62.7V20.417Z" transform="translate(-44.944)"/>
+      </g>
+    </g>
+    <g id="Grupo_1782" data-name="Grupo 1782" transform="translate(58.462 17.559)">
+      <g id="Grupo_1781" data-name="Grupo 1781">
+        <path id="Caminho_1995" data-name="Caminho 1995" class="cls-1" d="M260.635,351.492h-.207a.463.463,0,0,0,0,.925h.207a.463.463,0,1,0,0-.925Z" transform="translate(-259.965 -351.492)"/>
+      </g>
+    </g>
+    <g id="Grupo_1784" data-name="Grupo 1784" transform="translate(48.473 17.559)">
+      <g id="Grupo_1783" data-name="Grupo 1783" transform="translate(0)">
+        <path id="Caminho_1996" data-name="Caminho 1996" class="cls-1" d="M129.624,351.492h-4.493a.463.463,0,1,0,0,.925h4.493a.463.463,0,1,0,0-.925Z" transform="translate(-124.669 -351.492)"/>
+      </g>
+    </g>
+    <g id="Grupo_1786" data-name="Grupo 1786" transform="translate(48.473 13.446)">
+      <g id="Grupo_1785" data-name="Grupo 1785">
+        <path id="Caminho_1997" data-name="Caminho 1997" class="cls-1" d="M135.835,303.747h-10.7a.463.463,0,1,0,0,.925h10.7a.463.463,0,1,0,0-.925Z" transform="translate(-124.67 -303.747)"/>
+      </g>
+    </g>
+    <g id="Grupo_1790" data-name="Grupo 1790" transform="translate(48.473 9.219)">
+      <g id="Grupo_1789" data-name="Grupo 1789">
+        <path id="Caminho_1999" data-name="Caminho 1999" class="cls-1" d="M135.835,208.255h-10.7a.463.463,0,1,0,0,.925h10.7a.463.463,0,1,0,0-.925Z" transform="translate(-124.67 -208.255)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="adicionar" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #84037e;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <line id="Linha_577" data-name="Linha 577" class="cls-1" x2="17" transform="translate(0 8.5)"/>
+  <line id="Linha_578" data-name="Linha 578" class="cls-1" y2="17" transform="translate(8.5)"/>
+</svg>

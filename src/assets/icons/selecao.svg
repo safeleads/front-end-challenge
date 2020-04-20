@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.732" height="18.777" viewBox="0 0 23.732 18.777">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #6a1476;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="selecao" transform="translate(0.732 1.422)">
+    <line id="Linha_381" data-name="Linha 381" class="cls-1" x2="9.614" transform="translate(13.386 1.636)"/>
+    <line id="Linha_382" data-name="Linha 382" class="cls-1" x2="9.614" transform="translate(13.386 7.444)"/>
+    <line id="Linha_383" data-name="Linha 383" class="cls-1" x2="9.614" transform="translate(13.386 14.101)"/>
+    <path id="Caminho_1898" data-name="Caminho 1898" class="cls-1" d="M-13877.532,16447.188l5.041-5.41,5.668,5.41" transform="translate(13877.532 -16441.777)"/>
+    <path id="Caminho_1899" data-name="Caminho 1899" class="cls-1" d="M0,5.41,5.041,0l5.668,5.41" transform="translate(10.71 15.934) rotate(180)"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="Relogio" xmlns="http://www.w3.org/2000/svg" width="9" height="10.5" viewBox="0 0 9 10.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #121f2b;
+      }
+    </style>
+  </defs>
+  <path id="ic_timer_24px" class="cls-1" d="M9,1H6V2H9ZM7,7.5H8v-3H7Zm4.015-3.3.71-.71a5.524,5.524,0,0,0-.7-.7l-.71.71a4.5,4.5,0,1,0,.705.7ZM7.5,10.5A3.5,3.5,0,1,1,11,7,3.5,3.5,0,0,1,7.5,10.5Z" transform="translate(-3 -1)"/>
+</svg>
