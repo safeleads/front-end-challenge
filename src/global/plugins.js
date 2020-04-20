@@ -3,7 +3,8 @@ import {
   ButtonPlugin,
   SidebarPlugin,
   NavPlugin,
-  ImagePlugin
+  ImagePlugin,
+  NavbarPlugin
 } from 'bootstrap-vue';
 
 const plugins = {
@@ -13,6 +14,7 @@ const plugins = {
     Vue.use(SidebarPlugin);
     Vue.use(NavPlugin);
     Vue.use(ImagePlugin);
+    Vue.use(NavbarPlugin);
   }
 };
 
