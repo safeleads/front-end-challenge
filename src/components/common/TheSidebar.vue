@@ -1,8 +1,13 @@
 <template>
   <div class="sidebar bg-white">
     <b-nav class="sidebar__nav" vertical>
-      <b-nav-item v-for="{ icon } in items" :key="icon" class="text-center">
-        <b-img :src="require(`../../assets/icons/${icon}`)" />
+      <b-nav-item
+        class="text-center"
+        v-for="{ icon, alt, active } in items"
+        :key="icon"
+        :active="!!active"
+      >
+        <b-img :src="require(`~/assets/icons/${icon}`)" :alt="alt" />
       </b-nav-item>
     </b-nav>
   </div>
@@ -14,21 +19,28 @@ export default {
   data() {
     return {
       items: [
-        { icon: 'house.svg' },
-        { icon: 'store.svg' },
-        { icon: 'user.svg' },
-        { icon: 'projeto.svg' },
-        { icon: 'money.svg' },
-        { icon: 'percent.svg' },
-        { icon: 'calendar.svg' },
-        { icon: 'dashboard.svg' },
-        { icon: 'task.svg' },
-        { icon: 'info.svg' },
-        { icon: 'file.svg' },
-        { icon: 'selecao.svg' },
-        { icon: 'flow.svg' },
-        { icon: 'lapis.svg' },
-        { icon: 'engrenagem.svg' }
+        {
+          icon: 'house.svg',
+          alt: 'icone da opção HOME da sidebar',
+          active: 'true'
+        },
+        { icon: 'store.svg', alt: 'icone da opção LOJA da sidebar' },
+        { icon: 'user.svg', alt: 'icone da opção USUÁRIOS da sidebar' },
+        { icon: 'projeto.svg', alt: 'icone da opção PROJETOS da sidebar' },
+        { icon: 'money.svg', alt: 'icone da opção DESCONHECIDO da sidebar' },
+        { icon: 'percent.svg', alt: 'icone da opção DECONHECIDO da sidebar' },
+        { icon: 'calendar.svg', alt: 'icone da opção CALENDÁRIO da sidebar' },
+        {
+          icon: 'dashboard.svg',
+          alt: 'icone da opção DESCONHECIDO da sidebar'
+        },
+        { icon: 'task.svg', alt: 'icone da opção TAREFAS da sidebar' },
+        { icon: 'info.svg', alt: 'icone da opção DESCONHECIDO da sidebar' },
+        { icon: 'file.svg', alt: 'icone da opção ARQUIVOS da sidebar' },
+        { icon: 'selecao.svg', alt: 'icone da opção DESCONHECIDO da sidebar' },
+        { icon: 'flow.svg', alt: 'icone da opção FLUXO da sidebar' },
+        { icon: 'lapis.svg', alt: 'icone da opção DESCONHECIDO da sidebar' },
+        { icon: 'engrenagem.svg', alt: 'icone da opção OPÇÕES da sidebar' }
       ]
     };
   }
@@ -38,7 +50,6 @@ export default {
 <style lang="scss" scoped>
 .sidebar {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  margin-right: 11px;
 }
 
 .sidebar__nav {
