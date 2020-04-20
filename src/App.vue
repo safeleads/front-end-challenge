@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="overflow-hidden w-100">
-    <div class="header">Header</div>
+    <TheHeader />
 
     <main class="main">
       <TheSidebar />
@@ -10,10 +10,11 @@
 </template>
 
 <script>
-import TheSidebar from './components/common/TheSidebar';
+import { TheSidebar, TheHeader } from './components/common';
 export default {
   components: {
-    TheSidebar
+    TheSidebar,
+    TheHeader
   }
 };
 </script>
