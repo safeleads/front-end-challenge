@@ -38,6 +38,7 @@ export default {
 <style lang="scss" scoped>
 .sidebar {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin-right: 11px;
 }
 
 .sidebar__nav {
