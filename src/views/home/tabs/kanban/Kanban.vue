@@ -1,5 +1,5 @@
 <template>
-  <b-container class="kanban" tag="section">
+  <section class="kanban">
     <b-row class="kanban__header" tag="header" align-v="center">
       <b-col md="6">
         <OneChoiseButton
@@ -19,15 +19,20 @@
         </b-btn>
       </b-col>
     </b-row>
-  </b-container>
+
+    <div class="kanban__body">
+      <BetaWarning />
+    </div>
+  </section>
 </template>
 
 <script>
-import { OneChoiseButton } from '~/components/common';
+import { OneChoiseButton, BetaWarning } from '~/components/common';
 export default {
   name: 'Kanban',
   components: {
-    OneChoiseButton
+    OneChoiseButton,
+    BetaWarning
   },
   data() {
     return {

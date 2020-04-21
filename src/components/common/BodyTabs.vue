@@ -57,7 +57,9 @@ export default {
 
   &__content {
     .card-body {
-      padding: 0 0 0 11px;
+      @include media-breakpoint-up(sm) {
+        padding: 0 0 0 11px;
+      }
     }
   }
 }
