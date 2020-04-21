@@ -10,7 +10,9 @@
       lazy
     >
       <b-tab v-for="(tab, index) in tabs" :key="index" :title="tab.title">
-        <component :is="tab.content" />
+        <div class="body-tabs__content-body">
+          <component :is="tab.content" />
+        </div>
       </b-tab>
     </b-tabs>
   </b-card>
@@ -50,6 +52,12 @@ export default {
         line-height: 27px;
         @extend %body-tabs-background-default;
       }
+    }
+  }
+
+  &__content {
+    .card-body {
+      padding: 0 0 0 11px;
     }
   }
 }
