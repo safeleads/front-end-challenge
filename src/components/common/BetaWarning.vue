@@ -3,6 +3,7 @@
     <b-col
       class="beta-warning__version text-right text-white text-calibri font-weight-bold text-uppercase"
       sm="6"
+      md="4"
       lg="4"
     >
       Versão Beta
@@ -10,6 +11,7 @@
     <b-col
       class="beta-warning__development text-right text-calibri"
       sm="6"
+      md="8"
       lg="8"
     >
       Tela em desenvolvimento
@@ -33,10 +35,9 @@ export default {
   margin-left: -5px;
   background-color: #e7ebf1;
 
-  @include media-breakpoint-up(sm) {
-    max-width: 88%;
+  @include media-breakpoint-up(md) {
+    max-width: 90%;
   }
-
   @include media-breakpoint-up(lg) {
     max-width: 68%;
   }
@@ -56,8 +57,13 @@ export default {
   }
 
   &__development {
+    display: flex;
     color: #484848;
     line-height: 22px;
+
+    @include media-breakpoint-up(sm) {
+      display: inline;
+    }
   }
 }
 </style>

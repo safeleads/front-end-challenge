@@ -48,7 +48,9 @@ export default {
       // min-width: 206px;
       .nav-link {
         padding: 10px 32px;
+        font-family: Calibri, sans-serif;
         font-size: 22px;
+        font-weight: bold;
         line-height: 27px;
         @extend %body-tabs-background-default;
       }

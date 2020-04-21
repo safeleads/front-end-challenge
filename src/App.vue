@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="overflow-hidden w-100">
+  <div id="app" class="w-100">
     <TheHeader />
 
     <main class="main">
