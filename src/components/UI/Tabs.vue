@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'BodyTabs',
+  name: 'Tabs',
   props: {
     tabs: {
       type: Array,
@@ -39,7 +39,7 @@ export default {
   @extend %body-tabs-background-default;
 
   &__header {
-    background-color: #ebeef3;
+    background-color: $background-light;
     padding: 17px 40px 12px;
   }
 
@@ -58,7 +58,7 @@ export default {
   }
 
   &__content {
-    .card-body {
+    > .card-body {
       @include media-breakpoint-up(sm) {
         padding: 0 0 0 11px;
       }

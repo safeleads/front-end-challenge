@@ -1,5 +1,5 @@
 <template>
-  <b-row class="beta-warning">
+  <b-row class="beta-warning mb-3">
     <b-col
       class="beta-warning__version text-right text-white text-calibri font-weight-bold text-uppercase"
       sm="6"
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'BetaWarning'
+  name: 'TheBetaWarning'
 };
 </script>
 

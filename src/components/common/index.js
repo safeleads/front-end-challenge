@@ -1,8 +1,7 @@
 import TheSidebar from './TheSidebar.vue';
 import TheHeader from './TheHeader.vue';
+import TheBetaWarning from './TheBetaWarning.vue';
 
-import BodyTabs from './BodyTabs.vue';
-import OneChoiseButton from './OneChoiseButton.vue';
-import BetaWarning from './BetaWarning.vue';
+import StatusBadge from './StatusBadge.vue';
 
-export { TheSidebar, TheHeader, BodyTabs, OneChoiseButton, BetaWarning };
+export { TheSidebar, TheHeader, TheBetaWarning, StatusBadge };

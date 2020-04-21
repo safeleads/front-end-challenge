@@ -1,14 +1,14 @@
 <template>
   <section class="home-page">
-    <BodyTabs :tabs="tabs" />
+    <Tabs :tabs="tabs" />
   </section>
 </template>
 
 <script>
-import { BodyTabs } from '~/components/common';
+import { Tabs } from '~/components/UI';
 export default {
   name: 'Home',
-  components: { BodyTabs },
+  components: { Tabs },
   data() {
     return {
       tabs: [
