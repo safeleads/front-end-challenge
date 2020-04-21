@@ -25,7 +25,8 @@ export default {
   min-height: 100%;
 }
 
-.sidebar + div {
+.sidebar + div,
+.sidebar + section {
   flex: 1;
 }
 </style>
