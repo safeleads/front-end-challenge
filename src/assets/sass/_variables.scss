@@ -1,9 +1,18 @@
-// Colors
-$background: #CDD8E1;
-$background-light: #EBEEF3;
+// --- Colors ---
+$background: #cdd8e1;
+$background-light: #ebeef3;
+$body-bg: #eff1f4;
 
-$primary: #84037E;
+$primary: #84037e;
 $info: #364299;
-$success: #29B52E;
+$success: #29b52e;
 $info: #34b8cc;
-$dark: #121F2B;
+$dark: #121f2b;
+
+// --- Navs ---
+
+$nav-tabs-border-width: 0;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-link-active-color: $primary;
+$nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: transparent;
