@@ -14,5 +14,10 @@
   &-filter {
     padding-left: 24.5px;
     padding-right: 24.5px;
+    background-color: #343843;
+
+    &:hover {
+      background-color: #252936;
+    }
   }
 }
