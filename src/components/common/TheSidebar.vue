@@ -26,6 +26,7 @@ export default {
         },
         { icon: 'store.svg', alt: 'icone da opção LOJA da sidebar' },
         { icon: 'user.svg', alt: 'icone da opção USUÁRIOS da sidebar' },
+        { icon: 'person.svg', alt: 'icone da opção USUÁRIOS da sidebar' },
         { icon: 'projeto.svg', alt: 'icone da opção PROJETOS da sidebar' },
         { icon: 'money.svg', alt: 'icone da opção DESCONHECIDO da sidebar' },
         { icon: 'percent.svg', alt: 'icone da opção DECONHECIDO da sidebar' },
