@@ -8,8 +8,13 @@ import {
   TabsPlugin,
   CardPlugin,
   FormRadioPlugin,
-  FormGroupPlugin
+  FormGroupPlugin,
+  BadgePlugin
 } from 'bootstrap-vue';
+
+import VueMoment from 'vue-moment';
+import moment from 'moment';
+import 'moment/locale/pt-br';
 
 const plugins = {
   install(Vue) {
@@ -23,6 +28,9 @@ const plugins = {
     Vue.use(CardPlugin);
     Vue.use(FormRadioPlugin);
     Vue.use(FormGroupPlugin);
+    Vue.use(BadgePlugin);
+
+    Vue.use(VueMoment, { moment });
   }
 };
 
