@@ -1,0 +1,7 @@
+@mixin modifiers($map, $attribute) {
+  @each $name, $value in $map {
+    &-#{$name} {
+      #{$attribute}: $value !important;
+    }
+  }
+}
