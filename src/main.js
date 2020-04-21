@@ -5,8 +5,10 @@ import router from './router';
 import store from './store';
 
 import Plugins from './global/plugins';
+import Filters from './global/filters';
 
 Vue.use(Plugins);
+Vue.use(Filters);
 
 Vue.config.productionTip = false;
 
