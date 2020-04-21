@@ -4,7 +4,11 @@ import {
   SidebarPlugin,
   NavPlugin,
   ImagePlugin,
-  NavbarPlugin
+  NavbarPlugin,
+  TabsPlugin,
+  CardPlugin,
+  FormRadioPlugin,
+  FormGroupPlugin
 } from 'bootstrap-vue';
 
 const plugins = {
@@ -15,6 +19,10 @@ const plugins = {
     Vue.use(NavPlugin);
     Vue.use(ImagePlugin);
     Vue.use(NavbarPlugin);
+    Vue.use(TabsPlugin);
+    Vue.use(CardPlugin);
+    Vue.use(FormRadioPlugin);
+    Vue.use(FormGroupPlugin);
   }
 };
 
