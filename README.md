@@ -1,5 +1,8 @@
 # safeleads-test
 
+### bugs conhecidos
+- Sidebar: a primeira opção nunca vai sair do estado de "ativo"
+
 ## Project setup
 ```
 yarn install
