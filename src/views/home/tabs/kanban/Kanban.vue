@@ -1,6 +1,6 @@
 <template>
   <section class="kanban">
-    <b-row class="kanban__header" tag="header" align-v="center">
+    <b-row class="kanban__header mr-0" tag="header" align-v="center">
       <b-col sm="6" md="8" lg="6">
         <OneChoiseButton
           class="mb-0"
@@ -22,6 +22,9 @@
 
     <div class="kanban__body">
       <TheBetaWarning />
+      <div class="body-container">
+        <LeadsCardGroup />
+      </div>
     </div>
   </section>
 </template>
@@ -29,11 +32,13 @@
 <script>
 import { TheBetaWarning } from '~/components/common';
 import { OneChoiseButton } from '~/components/UI';
+import LeadsCardGroup from './partials/kanban-leads/LeadsCardGroup';
 export default {
   name: 'Kanban',
   components: {
     OneChoiseButton,
-    TheBetaWarning
+    TheBetaWarning,
+    LeadsCardGroup
   },
   data() {
     return {
@@ -84,9 +89,35 @@ export default {
       }
     }
   }
+
   &__body {
     padding: 14px 0;
     background-color: $background;
+
+    > .body-container {
+      overflow-x: auto;
+      width: 100vw;
+      max-width: 70vw;
+      margin: 0 auto;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      @include media-breakpoint-up(md) {
+        max-width: 80vw;
+      }
+
+      @include media-breakpoint-up(lg) {
+        max-width: 90vw;
+      }
+
+      @media screen and (min-width: 1920px) {
+        max-width: 1750px;
+      }
+    }
+  }
+
+  &-card-group__body {
+    padding: 20px 13px;
   }
 }
 </style>
