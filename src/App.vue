@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="w-100">
+  <div id="app">
     <TheHeader />
 
-    <main class="main">
+    <main class="main flex-fill">
       <TheSidebar />
       <router-view />
     </main>
@@ -20,13 +20,13 @@ export default {
 </script>
 
 <style lang="scss">
-.main {
+#app {
+  min-height: 100vh;
   display: flex;
-  min-height: 100%;
+  flex-direction: column;
 }
 
-.sidebar + div,
-.sidebar + section {
-  flex: 1;
+.main {
+  display: flex;
 }
 </style>

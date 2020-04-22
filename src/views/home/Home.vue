@@ -1,5 +1,5 @@
 <template>
-  <section class="home-page">
+  <section class="home-page flex-fill">
     <Tabs :tabs="tabs" />
   </section>
 </template>

@@ -111,7 +111,7 @@ export default {
       }
 
       @media screen and (min-width: 1920px) {
-        max-width: 1750px;
+        max-width: max-content;
       }
     }
   }
