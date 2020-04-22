@@ -1,7 +1,5 @@
 # safeleads-test
-
-### bugs conhecidos
-- Sidebar: a primeira opção nunca vai sair do estado de "ativo"
+  SPA básica, construída como um teste para a empresa Safe Leads.
 
 ## Project setup
 ```
