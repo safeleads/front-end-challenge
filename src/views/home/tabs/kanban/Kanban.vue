@@ -21,18 +21,19 @@
     </b-row>
 
     <div class="kanban__body">
-      <BetaWarning />
+      <TheBetaWarning />
     </div>
   </section>
 </template>
 
 <script>
-import { OneChoiseButton, BetaWarning } from '~/components/common';
+import { TheBetaWarning } from '~/components/common';
+import { OneChoiseButton } from '~/components/UI';
 export default {
   name: 'Kanban',
   components: {
     OneChoiseButton,
-    BetaWarning
+    TheBetaWarning
   },
   data() {
     return {
