@@ -1,16 +1,16 @@
 <template>
-  <b-card class="body-tabs h-100 border-0" no-body>
+  <b-card class="custom-tabs h-100 border-0" no-body>
     <b-tabs
-      class="body-tabs__tabs"
+      class="custom-tabs--tabs"
       v-on="$listeners"
-      content-class="body-tabs__content"
-      nav-class="body-tabs__tab"
-      nav-wrapper-class="body-tabs__header border-0"
+      content-class="custom-tabs--content"
+      nav-class="custom-tabs--tab"
+      nav-wrapper-class="custom-tabs--header border-0"
       card
       lazy
     >
       <b-tab v-for="(tab, index) in tabs" :key="index" :title="tab.title">
-        <div class="body-tabs__content-body">
+        <div class="custom-tabs--content-body">
           <component :is="tab.content" />
         </div>
       </b-tab>
@@ -31,33 +31,32 @@ export default {
 </script>
 
 <style lang="scss">
-%body-tabs-background-default {
+%custom-tabs-background-default {
   background-color: $body-bg !important;
 }
-.body-tabs {
+.custom-tabs {
   border-radius: 0;
-  @extend %body-tabs-background-default;
+  @extend %custom-tabs-background-default;
 
-  &__header {
+  &--header {
     background-color: $background-light;
     padding: 17px 40px 12px;
   }
 
-  &__tab {
+  &--tab {
     .nav-item {
-      // min-width: 206px;
       .nav-link {
         padding: 10px 32px;
         font-family: Calibri, sans-serif;
         font-size: 22px;
         font-weight: bold;
         line-height: 27px;
-        @extend %body-tabs-background-default;
+        @extend %custom-tabs-background-default;
       }
     }
   }
 
-  &__content {
+  &--content {
     > .card-body {
       @include media-breakpoint-up(sm) {
         padding: 0 0 0 11px;

@@ -13,7 +13,7 @@
         :src="require('~/assets/icons/relogio.svg')"
         alt="Icone do tempo do status"
       />
-      <span class="status-badge--time">{{ status.time | moment('h:mm') }}</span>
+      <span class="status-badge--time">{{ status.time }}</span>
     </div>
   </b-badge>
 </template>
