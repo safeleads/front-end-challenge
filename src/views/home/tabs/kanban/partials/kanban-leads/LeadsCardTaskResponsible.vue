@@ -1,6 +1,6 @@
 <template>
   <div
-    class="leads-card-task-responsible text-12 line-height-17 text-center text-sm-left"
+    class="leads-card-task-responsible text-12 line-height-17 d-flex flex-column flex-sm-row align-items-center justify-content-center justify-content-sm-start"
   >
     <span class="text">Responsável:</span>
     <span

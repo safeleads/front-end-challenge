@@ -22,7 +22,7 @@ export default {
   name: 'LeadsCardHeader',
   props: {
     lastUpdate: {
-      type: Date,
+      type: String,
       required: true
     }
   }

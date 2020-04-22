@@ -37,7 +37,7 @@ export default {
 <style lang="scss" scoped>
 .leads-card-simulation {
   padding: 12px 17px;
-  background-color: #e7ebf1;
+  background-color: $light;
 
   &--icon {
     margin-right: 5px;

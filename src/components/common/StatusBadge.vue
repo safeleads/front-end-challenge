@@ -1,10 +1,13 @@
 <template>
   <b-badge
-    class="status-badge d-flex flex-column flex-sm-row justify-content-between align-items-center font-weight-normal flex-fill"
+    class="status-badge d-flex flex-column flex-sm-row justify-content-between align-items-center font-weight-normal"
     :variant="statusState.variant"
     pill
   >
-    <span class="text-14 line-height-19" v-text="statusState.label"></span>
+    <span
+      class="status-badge--label text-14 line-height-19"
+      v-text="statusState.label"
+    ></span>
     <div class="align-center text-10 line-height-14">
       <b-img
         :src="require('~/assets/icons/relogio.svg')"
@@ -63,10 +66,17 @@ export default {
 .status-badge {
   padding: 3px 20px 3px 18px;
   margin: auto;
-  max-width: 185px;
 
   @include media-breakpoint-up(sm) {
+    flex: 1 1 100%;
     max-width: 245px;
+  }
+
+  &--label {
+    display: none;
+    @include media-breakpoint-up(sm) {
+      display: block;
+    }
   }
 
   img {

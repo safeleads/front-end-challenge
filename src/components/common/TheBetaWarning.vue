@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .beta-warning {
   margin-left: -5px;
-  background-color: #e7ebf1;
+  background-color: $light;
 
   @include media-breakpoint-up(md) {
     max-width: 90%;

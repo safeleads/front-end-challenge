@@ -63,7 +63,6 @@ export default {
   color: $dark !important;
 }
 .leads-card {
-  max-width: 329px; /** remover */
   background-color: #f6f6f9;
   border-radius: $border-radius-small;
   box-shadow: 0 2px 1px $background;
