@@ -1,0 +1,66 @@
+// -- fonts --
+$font10px: 0.625rem;
+$font11px: 0.6875rem;
+$font12px: 0.75rem;
+$font13px: 0.8125rem;
+$font14px: 0.875rem;
+$font15px: 0.9365rem;
+$font16px: 1rem;
+$font17px: 1.0625rem;
+$font18px: 1.125rem;
+$font19px: 1.1875rem;
+$font20px: 1.25rem;
+
+$fontSizes: (
+  '10': $font10px,
+  '11': $font11px,
+  '12': $font12px,
+  '13': $font13px,
+  '14': $font14px,
+  '15': $font15px,
+  '16': $font16px
+);
+
+$lineHeights: (
+  '14': $font14px,
+  '15': $font15px,
+  '17': $font17px,
+  '19': $font19px,
+  '20': $font20px
+);
+
+// --- Colors ---
+$background: #cdd8e1;
+$background-light: #ebeef3;
+$body-bg: #eff1f4;
+
+$primary: #84037e;
+$primary-alt: #6a1476;
+$info: #364299;
+$success: #29b52e;
+$light: #e7ebf1;
+$dark: #121f2b;
+
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    'primary': $primary,
+    'primary-alt': $primary-alt,
+    'success': $success,
+    'info': $info,
+    'light': $light,
+    'dark': $dark,
+  )
+);
+
+// --- Borders ---
+
+$border-radius-small: 3px;
+
+// --- Navs ---
+
+$nav-tabs-border-width: 0;
+$nav-tabs-link-hover-border-color: transparent;
+$nav-tabs-link-active-color: $primary;
+$nav-tabs-link-active-bg: $body-bg;
+$nav-tabs-link-active-border-color: transparent;

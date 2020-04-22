@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.5px 28.6px;
+  font-size: 14px;
+  line-height: 17px;
+  transition: color .5s, box-shadow .5s, background .5s;
+
+  img {
+    margin-right: 6px;
+  }
+
+  &-filter {
+    padding-left: 24.5px;
+    padding-right: 24.5px;
+    background-color: #343843;
+
+    &:hover {
+      background-color: #252936;
+    }
+  }
+}

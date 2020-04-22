@@ -1,0 +1,222 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "type": "waiting_contact",
+      "last_id": 3,
+      "data": [
+        {
+          "id": 1,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "projects": "01",
+          "responsible": "Gustavo Souza",
+          "client": {
+            "name": "Rodrigo Santos",
+            "origin": "Campo"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "8:20"
+          }
+        },
+        {
+          "id": 2,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "projects": "03",
+          "responsible": "Gustavo Souza",
+          "simulation": 1550500,
+          "client": {
+            "name": "Rodrigo Santos",
+            "origin": "Facebook"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "4:20"
+          }
+        },
+        {
+          "id": 3,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 1550500,
+          "client": {
+            "name": "Loja Mais",
+            "origin": "Campo"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "4:20"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "in_progress",
+      "last_id": 1,
+      "data": [
+        {
+          "id": 1,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "projects": "00",
+          "responsible": "Gustavo Souza",
+          "client": {
+            "name": "Rodrigo Santos",
+            "origin": "Campo"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "4:20"
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "pre_proposal",
+      "last_id": 4,
+      "data": [
+        {
+          "id": 1,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "client": {
+            "name": "Rodrigo Santos",
+            "origin": "Site"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "4:20"
+          }
+        },
+        {
+          "id": 2,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Facebook"
+          },
+          "status": {
+            "state": "scheduling_visit",
+            "time": "4:20"
+          }
+        },
+        {
+          "id": 3,
+          "disabled": true,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "projects": "01",
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Campo"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "8:20"
+          }
+        },
+        {
+          "id": 4,
+          "disabled": true,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "projects": "01",
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Campo"
+          },
+          "status": {
+            "state": "waiting_contact",
+            "time": "8:20"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "visit_scheduled",
+      "last_id": 5,
+      "data": [
+        {
+          "id": 1,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Site"
+          },
+          "status": {
+            "state": "visit_scheduled",
+            "time": "4:20"
+          }
+        },
+        {
+          "id": 2,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Site"
+          },
+          "status": {
+            "state": "scheduling_visit",
+            "time": "24:20"
+          }
+        },
+        {
+          "id": 3,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Contato"
+          },
+          "status": {
+            "state": "visit_scheduled",
+            "time": "24:20"
+          }
+        },
+        {
+          "id": 4,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Site"
+          },
+          "status": {
+            "state": "scheduling_visit",
+            "time": "2:00"
+          }
+        },
+        {
+          "id": 5,
+          "last_update": "Tue Mar 24 2020 15:00:00 GMT-0300 (Horário Padrão de Brasília)",
+          "responsible": "Gustavo Souza",
+          "simulation": 850500,
+          "client": {
+            "name": "Anderson Gomes",
+            "origin": "Site"
+          },
+          "status": {
+            "state": "scheduling_visit",
+            "time": "2:00"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "technic_visit",
+      "last_id": 0,
+      "data": []
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="24.357" viewBox="0 0 23 24.357">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #6a1476;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill: #6a1476;
+        font-size: 18px;
+        font-family: NotoSans-Bold, Noto Sans;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="info" transform="translate(-1 0.363)">
+    <g id="Grupo_1607" data-name="Grupo 1607" transform="translate(1 -0.363)">
+      <g id="Elipse_358" data-name="Elipse 358" class="cls-1" transform="translate(0 3)">
+        <ellipse class="cls-4" cx="10.894" cy="10.679" rx="10.894" ry="10.679"/>
+        <ellipse class="cls-5" cx="10.894" cy="10.679" rx="10.144" ry="9.929"/>
+      </g>
+      <text id="_" data-name="!" class="cls-2" transform="translate(7.15 19)"><tspan x="0" y="0">!</tspan></text>
+      <rect id="Retângulo_1746" data-name="Retângulo 1746" class="cls-3" width="5" height="7" transform="matrix(0.966, 0.259, -0.259, 0.966, 18.17, 12.779)"/>
+    </g>
+  </g>
+</svg>

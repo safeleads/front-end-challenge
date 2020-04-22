@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="filtrar" transform="translate(-1214 -191)">
+    <rect id="Retângulo_2800" data-name="Retângulo 2800" class="cls-1" width="15" height="2" transform="translate(1214 191)"/>
+    <rect id="Retângulo_2801" data-name="Retângulo 2801" class="cls-1" width="13" height="2" transform="translate(1215 195)"/>
+    <rect id="Retângulo_2802" data-name="Retângulo 2802" class="cls-1" width="7" height="2" transform="translate(1218 199)"/>
+  </g>
+</svg>

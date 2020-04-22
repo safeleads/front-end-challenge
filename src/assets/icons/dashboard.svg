@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" viewBox="0 0 23 21">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #6a1476;
+      }
+
+      .cls-1 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="dashboard" transform="translate(-26 -609)">
+    <g id="Retângulo_2843" data-name="Retângulo 2843" class="cls-1" transform="translate(26 609)">
+      <rect class="cls-4" width="23" height="20" rx="2"/>
+      <rect class="cls-5" x="0.75" y="0.75" width="21.5" height="18.5" rx="1.25"/>
+    </g>
+    <g id="Grupo_2686" data-name="Grupo 2686">
+      <g id="Retângulo_2844" data-name="Retângulo 2844" class="cls-2" transform="translate(29 612)">
+        <rect class="cls-4" width="5" height="13"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="4" height="12"/>
+      </g>
+      <g id="Retângulo_2845" data-name="Retângulo 2845" class="cls-2" transform="translate(35 612)">
+        <rect class="cls-4" width="5" height="4"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="4" height="3"/>
+      </g>
+      <g id="Retângulo_2846" data-name="Retângulo 2846" class="cls-2" transform="translate(35 617)">
+        <rect class="cls-4" width="5" height="8"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="4" height="7"/>
+      </g>
+      <g id="Retângulo_2847" data-name="Retângulo 2847" class="cls-2" transform="translate(41 612)">
+        <rect class="cls-4" width="5" height="13"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="4" height="12"/>
+      </g>
+    </g>
+    <rect id="Retângulo_2848" data-name="Retângulo 2848" class="cls-3" width="5" height="4" transform="translate(41 626)"/>
+  </g>
+</svg>

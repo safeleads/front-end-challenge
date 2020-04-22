@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="19.25" viewBox="0 0 22 19.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #444;
+      }
+    </style>
+  </defs>
+  <path id="indent-increase" class="cls-1" d="M0,2H22V4.75H0ZM8.25,6.125H22v2.75H8.25Zm0,4.125H22V13H8.25Zm0,4.125H22v2.75H8.25ZM0,18.5H22v2.75H0Zm0-2.75V7.5l5.5,4.125Z" transform="translate(22 21.25) rotate(180)"/>
+</svg>

@@ -1,0 +1,12 @@
+.text-calibri {
+  font-family: Calibri, sans-serif;
+  font-weight: normal;
+}
+
+.text {
+  @include modifiers($fontSizes, 'font-size');
+}
+
+.line-height {
+  @include modifiers($lineHeights, 'line-height');
+}

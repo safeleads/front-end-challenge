@@ -1,0 +1,20 @@
+<svg id="flow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6a1476;
+      }
+    </style>
+  </defs>
+  <g id="Grupo_1728" data-name="Grupo 1728">
+    <g id="Grupo_1727" data-name="Grupo 1727">
+      <path id="Caminho_1983" data-name="Caminho 1983" class="cls-1" d="M10.5,4.5H12V3H10.5V0H0V7.5H10.5ZM9,6H1.5V1.5H9Z"/>
+      <path id="Caminho_1984" data-name="Caminho 1984" class="cls-1" d="M257.5,355H256v1.5h1.5v3H268V352H257.5Zm1.5-1.5h7.5V358H259Z" transform="translate(-244 -335.5)"/>
+      <path id="Caminho_1985" data-name="Caminho 1985" class="cls-1" d="M358,68.875a3.375,3.375,0,0,1-3.375,3.375h-.375v1.5h.375a4.875,4.875,0,0,0,0-9.75H352v1.5h2.625A3.379,3.379,0,0,1,358,68.875Z" transform="translate(-335.5 -61)"/>
+      <rect id="Retângulo_1974" data-name="Retângulo 1974" class="cls-1" width="1" height="2" transform="translate(14 4)"/>
+      <path id="Caminho_1986" data-name="Caminho 1986" class="cls-1" d="M152.56,174.187H154.5v-1.5H152.56l-3.31-3.311-3.31,3.311H144v1.5h1.94l3.31,3.311Zm-3.31-2.689,1.939,1.94-1.939,1.939-1.939-1.939Z" transform="translate(-137.25 -161.437)"/>
+      <path id="Caminho_1987" data-name="Caminho 1987" class="cls-1" d="M1.5,244.875A3.375,3.375,0,0,1,4.875,241.5H5.25V240H4.875a4.875,4.875,0,0,0,0,9.75H7.5v-1.5H4.875A3.379,3.379,0,0,1,1.5,244.875Z" transform="translate(0 -228.75)"/>
+      <rect id="Retângulo_1975" data-name="Retângulo 1975" class="cls-1" width="3" height="1" transform="translate(8 20)"/>
+    </g>
+  </g>
+</svg>
