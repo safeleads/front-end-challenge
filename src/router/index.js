@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import store from '~/store';
 
 Vue.use(VueRouter);
 
@@ -8,7 +9,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: () =>
-      import(/* webpackChunkName: "Home" */ '../views/home/Home.vue')
+      import(/* webpackChunkName: "Home" */ '../views/home/Home.vue'),
+    async beforeEnter(to, from, next) {
+      await store.dispatch('tasks/fetch');
+      next();
+    }
   }
 ];
 
